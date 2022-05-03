@@ -35,9 +35,9 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
     implementation 'org.springframework.session:spring-session-jdbc'
-    implementation 'javax.xml.bind:jaxb-api'
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
     implementation 'org.glassfish.jaxb:jaxb-runtime'
-    implementation 'javax.activation:activation'
+    implementation 'javax.activation:activation:1.1.1'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
